@@ -1,0 +1,79 @@
+﻿@import url("reset.css");
+
+body {
+    font-family: 'Century Gothic', sans-serif;
+    padding: 15px;
+}
+.section {
+    min-height: calc(100vh - 8vh);
+    flex: auto;
+}
+
+h1 {
+    font-size: 50px;
+    height: auto;
+    width: auto;
+}
+
+h4 {
+    font-size: 25px;
+    height: auto;
+    width: auto;
+}
+
+footer {
+    height: 8vh;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footerstuff {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.footerlink {
+    color: black;
+}
+
+table, tr, td, th {
+     vertical-align: middle;
+     padding: 10px;
+     flex: auto;
+}
+
+th {
+    font-weight: bold;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+ol {
+    margin: 15px;
+}
+
+li {
+    height: 30px;
+}
+
+nav {
+    font-size: 17px;
+}
+
+p {
+    padding-top: 10px;
+}
+
+@media (max-width: 420px) {
+    p {
+        font-size: small;
+    }
+}
